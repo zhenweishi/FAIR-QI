@@ -1,0 +1,148 @@
+{
+  "ContentCreatorName": "Lung1CollectionOwner",
+  "ClinicalTrialSeriesID": "Session1",
+  "ClinicalTrialTimePointID": "1",
+  "SeriesDescription": "Segmentation",
+  "SeriesNumber": "300",
+  "InstanceNumber": "1",
+  "BodyPartExamined": "LUNG",
+  "segmentAttributes": [
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "Esophagus",
+        "SegmentAlgorithmType": "MANUAL",
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "123037004",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Anatomical Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "32849002",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Esophagus"
+        },
+        "recommendedDisplayRGBValue": [
+          211,
+          171,
+          143
+        ]
+      }
+    ],
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "GTV-1",
+        "SegmentAlgorithmType": "MANUAL",
+        "AnatomicRegionSequence": {
+          "CodeValue": "39607008",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Lung"
+        },
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "49755003",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Morphologically Altered Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "86049000",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Neoplasm, Primary"
+        }
+      }
+    ],
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "Heart",
+        "SegmentAlgorithmType": "MANUAL",
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "123037004",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Anatomical Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "80891009",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Heart"
+        },
+        "recommendedDisplayRGBValue": [
+          206,
+          110,
+          84
+        ]
+      }
+    ],
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "Lung-Left",
+        "SegmentAlgorithmType": "SEMIAUTOMATIC",
+        "SegmentAlgorithmName": "Region-growing",
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "123037004",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Anatomical Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "39607008",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Lung"
+        },
+        "SegmentedPropertyTypeModifierCodeSequence": {
+          "CodeValue": "7771000",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Left"
+        }
+      }
+    ],
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "Lung-Right",
+        "SegmentAlgorithmType": "SEMIAUTOMATIC",
+        "SegmentAlgorithmName": "Region-growing",
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "123037004",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Anatomical Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "39607008",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Lung"
+        },
+        "SegmentedPropertyTypeModifierCodeSequence": {
+          "CodeValue": "24028007",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Right"
+        }
+      }
+    ],
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "Spinal-Cord",
+        "SegmentAlgorithmType": "MANUAL",
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "123037004",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Anatomical Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "2748008",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Spinal cord"
+        },
+        "recommendedDisplayRGBValue": [
+          244,
+          214,
+          49
+        ]
+      }
+    ]
+  ],
+  "ContentLabel": "SEGMENTATION",
+  "ContentDescription": "Image segmentation",
+  "ClinicalTrialCoordinatingCenterName": "dcmqi"
+}
